@@ -4,6 +4,12 @@
 This data pipeline is designed to collect, process, and analyze Spotify data, utilizing various technologies for different stages of the pipeline. The workflow includes extracting data from a blob storage containing Spotify data, transforming it using Azure Databricks, orchestrating the pipeline with Azure Data Factory, and finally storing the processed data in an SQL database. The end goal is to enable seamless integration with Power BI for data visualization and analysis.
 
 ## Architecture
+# Project: Spotify Data Pipeline
+
+## Purpose
+This data pipeline is designed to collect, process, and analyze Spotify data, utilizing various technologies for different stages of the pipeline. The workflow includes extracting data from a blob storage containing Spotify data, transforming it using Azure Databricks, orchestrating the pipeline with Azure Data Factory, and finally storing the processed data in a SQL database. The end goal is to enable seamless integration with Power BI for data visualization and analysis.
+
+## Architecture
 ![Spotify Data Pipeline Architecture](<insert architecture image URL>)
 
 ## Data Flow
@@ -24,7 +30,7 @@ This data pipeline is designed to collect, process, and analyze Spotify data, ut
 ## Data Model
 The data model includes tables relevant to Spotify data, allowing for efficient analysis in Power BI. Specific entities may include track information, artist details, and user engagement metrics.
 
-![Data Model](<insert data model image URL>)
+[data model.pdf](https://github.com/kingsley-123/Spotify-ETL-/files/13403569/data.model.pdf)
 
 ## ETL Pipeline
 The ETL pipeline consists of the following key tasks:
@@ -39,7 +45,8 @@ The ETL pipeline consists of the following key tasks:
 5. **Data Visualization:**
    - Connect Power BI to the SQL database for interactive data visualization.
 
-![ETL Pipeline](<insert ETL pipeline image URL>)
+[Code.pdf](https://github.com/kingsley-123/Spotify-ETL-/files/13403584/Code.pdf)
+
 
 ## Development Setup
 To set up and run the data pipeline locally, follow these steps:
@@ -48,9 +55,7 @@ To set up and run the data pipeline locally, follow these steps:
 - Define required environment variables or configuration files.
 - Execute the pipeline using Azure Data Factory triggers or manual execution.
 
-## Code and Configurations
-Provide code snippets, configuration files, and scripts for essential components such as Azure Data Factory pipelines, Azure Databricks notebooks, and SQL scripts. Make sure to remove or obfuscate sensitive information.
+  
+## Spotify Visualization 
+[Spotify Report.pdf](https://github.com/kingsley-123/Spotify-ETL-/files/13403591/Spotify.Report.pdf)
 
-```python
-# Sample code snippet or configuration example
-# (your code here)
