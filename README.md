@@ -10,7 +10,7 @@ This data pipeline is designed to collect, process, and analyze Spotify data, ut
 This data pipeline is designed to collect, process, and analyze Spotify data, utilizing various technologies for different stages of the pipeline. The workflow includes extracting data from a blob storage containing Spotify data, transforming it using Azure Databricks, orchestrating the pipeline with Azure Data Factory, and finally storing the processed data in a SQL database. The end goal is to enable seamless integration with Power BI for data visualization and analysis.
 
 ## Architecture
-![Spotify Data Pipeline Architecture](<insert architecture image URL>)
+![Architecture-1](https://github.com/kingsley-123/Spotify-ETL-/assets/63650573/bd653b16-6473-47cb-be6a-c46301bd12d3)
 
 ## Data Flow
 1. **Data Extraction:** Azure Data Factory extracts data from the blob storage containing Spotify data.
@@ -30,7 +30,7 @@ This data pipeline is designed to collect, process, and analyze Spotify data, ut
 ## Data Model
 The data model includes tables relevant to Spotify data, allowing for efficient analysis in Power BI. Specific entities may include track information, artist details, and user engagement metrics.
 
-[data model.pdf](https://github.com/kingsley-123/Spotify-ETL-/files/13403569/data.model.pdf)
+![data model-2](https://github.com/kingsley-123/Spotify-ETL-/assets/63650573/98de181c-df8b-4f83-a047-4cf061d519f4)
 
 ## ETL Pipeline
 The ETL pipeline consists of the following key tasks:
@@ -45,7 +45,9 @@ The ETL pipeline consists of the following key tasks:
 5. **Data Visualization:**
    - Connect Power BI to the SQL database for interactive data visualization.
 
-[Code.pdf](https://github.com/kingsley-123/Spotify-ETL-/files/13403584/Code.pdf)
+![Code-1](https://github.com/kingsley-123/Spotify-ETL-/assets/63650573/fbd48c88-14bd-4cbd-b8c6-c721f98003f4)
+![Code-2](https://github.com/kingsley-123/Spotify-ETL-/assets/63650573/2f4721d4-bb3c-4923-9991-6d42bdf10ccb)
+![Code-3](https://github.com/kingsley-123/Spotify-ETL-/assets/63650573/7da95090-cd9d-4b73-ad7c-1e528cf89cff)
 
 
 ## Development Setup
@@ -57,5 +59,6 @@ To set up and run the data pipeline locally, follow these steps:
 
   
 ## Spotify Visualization 
-[Spotify Report.pdf](https://github.com/kingsley-123/Spotify-ETL-/files/13403591/Spotify.Report.pdf)
+![Spotify Report-1](https://github.com/kingsley-123/Spotify-ETL-/assets/63650573/40d8290a-20b5-430b-aaea-46181dd1188c)
+
 
