@@ -1,7 +1,7 @@
 # Spotify-ETL
 
 ## Purpose
-This data pipeline is designed to collect, process, and analyze Spotify data, utilizing various technologies for different stages of the pipeline. The workflow includes extracting data from a blob storage containing Spotify data, transforming it using Azure Databricks, orchestrating the pipeline with Azure Data Factory, and finally storing the processed data in a SQL database. The end goal is to enable seamless integration with Power BI for data visualization and analysis.
+This data pipeline is designed to collect, process, and analyze Spotify data, utilizing various technologies for different stages of the pipeline. The workflow includes extracting data from a blob storage containing Spotify data, transforming it using Azure Databricks, orchestrating the pipeline with Azure Data Factory, and finally storing the processed data in an SQL database. The end goal is to enable seamless integration with Power BI for data visualization and analysis.
 
 ## Architecture
 ![Spotify Data Pipeline Architecture](<insert architecture image URL>)
